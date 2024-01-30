@@ -18,7 +18,8 @@
 <div class="container mb-5">
     <div class="row">
         <div class="col-6 mx-auto">
-            <form action="./login.php" method="post" class='form'>
+            <form action="./createAccount.php" method="post" class='form'>
+                <h1>Create User:</h1>
                 <div class="form-group">
                    <label for="email" class='form-label'>Enter Email:</label>
                    <input type="email" class='form-control' name='email' id='email' required>  
@@ -28,7 +29,7 @@
                 <input type="password" class='form-control' name='password' id='password' required>
                 </div>
 
-                <button type='submit' class='btn btn-outline-primary'>Login</button>
+                <button type='submit' class='btn btn-outline-primary'>Create User</button>
             </form> 
         </div>
     </div>
@@ -38,6 +39,7 @@
 <div class="container mb-5">
     <div class="row">
         <div class="col-6 mx-auto">
+            <h2>Users:</h2>
             <table class='table'>
                 <thead>
                     <tr>
